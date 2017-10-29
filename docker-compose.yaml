@@ -10,5 +10,5 @@ services:
     volumes:
       - /var/www/html/data/admin/files
     environment:
-      - OWNCLOUD_ADMIN_USERNAME=admin
-      - OWNCLOUD_ADMIN_PASSWORD=admin
+      - ADMIN_USERNAME=admin
+      - ADMIN_PASSWORD=admin
