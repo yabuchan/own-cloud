@@ -3,7 +3,7 @@ version: '2'
 services:
 
   owncloud:
-    image: owncloud
+    image: owncloud:9
     restart: always
     ports:
       - 80:80
@@ -12,4 +12,3 @@ services:
     environment:
       - ADMIN_USERNAME=admin
       - ADMIN_PASSWORD=admin
-      - SERVER_NAME='$(APPNAME).insights-lab.com'
